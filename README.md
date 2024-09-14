@@ -56,11 +56,9 @@ Various classifiers were used to predict food ratings, and their performance was
 
 Base models were compared based on accuracy, precision, and F1-score. Visual comparisons of these metrics are available:
 
-<div style="display: flex; justify-content: space-around;">
-  <img src="images/acc_base.png" alt="Accuracy of Base Models" style="width: 33%;">
-  <img src="images/prec_base.png" alt="Precision of Base Models" style="width: 33%;">
-  <img src="images/f1_base.png" alt="F1 Score of Base Models" style="width: 33%;">
-</div>
+![Accuracy Distrbution for Model 1](images/acc_base.png)
+![Precision Distrbution for Model 1](images/prec_base.png)
+![F1 score Distrbution for Model 1](images/f1_base.png)
 
 Further tuning was done using Randomized Search for the following models:
 
@@ -71,11 +69,9 @@ Further tuning was done using Randomized Search for the following models:
 
 Each of these models was tuned with specific hyperparameters and evaluated:
 
-<div style="display: flex; justify-content: space-around;">
-  <img src="images/acc_cv.png" alt="Accuracy of Base Models" style="width: 33%;">
-  <img src="images/prec_cv.png" alt="Precision of Base Models" style="width: 33%;">
-  <img src="images/f1_cv.png" alt="F1 Score of Base Models" style="width: 33%;">
-</div>
+![Accuracy Distrbution for Model 1](images/acc_cv.png)
+![Precision Distrbution for Model 1](images/prec_cv.png)
+![F1 score Distrbution for Model 1](images/f1_cv.png)
 
 ### Advanced Model Comparison
 
@@ -90,17 +86,13 @@ In the advanced model comparison, the focus was on evaluating the performance of
    - Evaluation metrics include accuracy, precision, recall, and F1-score.
    - Visual representations of the comparison, including accuracy, precision, and F1-score, are provided.
 
-<div style="display: flex; justify-content: space-around;">
-  <img src="images/acc_model_1.png" alt="Accuracy of Base Models" style="width: 33%;">
-  <img src="images/prec_model_1.png" alt="Precision of Base Models" style="width: 33%;">
-  <img src="images/f1_mode_1.png" alt="F1 Score of Base Models" style="width: 33%;">
-</div>
+![Accuracy Distrbution for Model 1](images/acc_model_1.png)
+![Precision Distrbution for Model 1](images/prec_model_1.png)
+![F1 score Distrbution for Model 1](images/f1_model_1.png)
 
-<div style="display: flex; justify-content: space-around;">
-  <img src="images/acc_model_2.png" alt="Accuracy of Base Models" style="width: 33%;">
-  <img src="images/prec_model_2.png" alt="Precision of Base Models" style="width: 33%;">
-  <img src="images/f1_model_2.png" alt="F1 Score of Base Models" style="width: 33%;">
-</div>
+![Accuracy Distrbution for Model 2](images/acc_model_2.png)
+![Precision Distrbution for Model 2](images/prec_model_2.png)
+![F1 score Distrbution for Model 2](images/f1_model_2.png)
 
 These comparisons illustrate how well each model performs in distinguishing between high ratings and other ratings, as well as classifying the other ratings into specific categories.
 
@@ -108,7 +100,7 @@ These comparisons illustrate how well each model performs in distinguishing betw
 
 The detailed work for this project is documented and executed in a Jupyter notebook, which is available in this repository:
 
-- [Recipe for Rating Notebook](https://github.com/Risdorn/Recipe-for-Rating/blob/main/21f3001823-notebook-t12024.ipynb)
+- [Recipe for Rating Notebook](21f3001823-notebook-t12024.ipynb)
 
 Please note that the competition is private and therefore the notebook cannot be shared directly on Kaggle. However, the notebook is available in this repository for you to review.
 

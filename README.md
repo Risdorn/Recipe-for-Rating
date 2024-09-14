@@ -1,5 +1,7 @@
 # Recipe for Rating: Predict Food Ratings using ML
 
+> **Grade Letter: A**
+
 This project predicts food ratings using machine learning techniques, developed as part of the MLP project from IITM. It achieved a top score of 0.78288 (Version 16) and ranked 118 in the Kaggle competition. The dataset was highly biased with ratings distributed as follows:
 
 - Ratings of 1 and 2: ~1.3% each
